@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+<schema id="org.gnome.shell.extensions.aryan-keyboard" path="/org/gnome/shell/extensions/aryan-keyboard/">
+<key name="shift-symbol" type="s">
+<default>'⇧'</default>
+<summary>Shift</summary>
+<description>Symbol displayed when the Shift modifier is active.</description>
+</key>
+<key name="shift-icon-path" type="s">
+<default>''</default>
+<summary>Shift Icon Path</summary>
+<description>File path to SVG or icon for Shift modifier. If set, overrides symbol.</description>
+</key>
+<key name="caps-symbol" type="s">
+<default>'Caps'</default>
+<summary>Caps Lock</summary>
+<description>Symbol displayed when the Caps Lock modifier is active.</description>
+</key>
+<key name="caps-icon-path" type="s">
+<default>''</default>
+<summary>Caps Lock Icon Path</summary>
+<description>File path to SVG or icon for Caps Lock modifier. If set, overrides symbol.</description>
+</key>
+<key name="control-symbol" type="s">
+<default>'⋀'</default>
+<summary>Control</summary>
+<description>Symbol displayed when the Control modifier is active.</description>
+</key>
+<key name="control-icon-path" type="s">
+<default>''</default>
+<summary>Control Icon Path</summary>
+<description>File path to SVG or icon for Control modifier. If set, overrides symbol.</description>
+</key>
+<key name="alt-symbol" type="s">
+<default>'⌥'</default>
+<summary>Alt</summary>
+<description>Symbol displayed when the Alt modifier is active.</description>
+</key>
+<key name="alt-icon-path" type="s">
+<default>''</default>
+<summary>Alt Icon Path</summary>
+<description>File path to SVG or icon for Alt modifier. If set, overrides symbol.</description>
+</key>
+<key name="num-symbol" type="s">
+<default>'Num'</default>
+<summary>Num Lock</summary>
+<description>Symbol displayed when the Num Lock modifier is active.</description>
+</key>
+<key name="num-icon-path" type="s">
+<default>''</default>
+<summary>Num Lock Icon Path</summary>
+<description>File path to SVG or icon for Num Lock modifier. If set, overrides symbol.</description>
+</key>
+<key name="scroll-symbol" type="s">
+<default>'◆'</default>
+<summary>Scroll Lock</summary>
+<description>Symbol displayed when the Scroll Lock modifier is active.</description>
+</key>
+<key name="scroll-icon-path" type="s">
+<default>''</default>
+<summary>Scroll Lock Icon Path</summary>
+<description>File path to SVG or icon for Scroll Lock modifier. If set, overrides symbol.</description>
+</key>
+<key name="super-symbol" type="s">
+<default>'⌘'</default>
+<summary>Super</summary>
+<description>Symbol displayed when the Super modifier is active.</description>
+</key>
+<key name="super-icon-path" type="s">
+<default>''</default>
+<summary>Super Icon Path</summary>
+<description>File path to SVG or icon for Super modifier. If set, overrides symbol.</description>
+</key>
+<key name="altgr-symbol" type="s">
+<default>'⎇'</default>
+<summary>AltGr</summary>
+<description>Symbol displayed when the AltGr modifier is active.</description>
+</key>
+<key name="altgr-icon-path" type="s">
+<default>''</default>
+<summary>AltGr Icon Path</summary>
+<description>File path to SVG or icon for AltGr modifier. If set, overrides symbol.</description>
+</key>
+<!-- Per-modifier toggle: when true, use the icon path instead of the text symbol -->
+<key name="shift-use-icon" type="b">
+	<default>false</default>
+	<summary>Shift: use icon</summary>
+	<description>If true, the Shift modifier will display the icon from shift-icon-path instead of the text symbol.</description>
+</key>
+<key name="caps-use-icon" type="b">
+	<default>false</default>
+	<summary>Caps Lock: use icon</summary>
+	<description>If true, the Caps Lock modifier will display the icon from caps-icon-path instead of the text symbol.</description>
+</key>
+<key name="control-use-icon" type="b">
+	<default>false</default>
+	<summary>Control: use icon</summary>
+	<description>If true, the Control modifier will display the icon from control-icon-path instead of the text symbol.</description>
+</key>
+<key name="alt-use-icon" type="b">
+	<default>false</default>
+	<summary>Alt: use icon</summary>
+	<description>If true, the Alt modifier will display the icon from alt-icon-path instead of the text symbol.</description>
+</key>
+<key name="num-use-icon" type="b">
+	<default>false</default>
+	<summary>Num Lock: use icon</summary>
+	<description>If true, the Num Lock modifier will display the icon from num-icon-path instead of the text symbol.</description>
+</key>
+<key name="scroll-use-icon" type="b">
+	<default>false</default>
+	<summary>Scroll Lock: use icon</summary>
+	<description>If true, the Scroll Lock modifier will display the icon from scroll-icon-path instead of the text symbol.</description>
+</key>
+<key name="super-use-icon" type="b">
+	<default>false</default>
+	<summary>Super: use icon</summary>
+	<description>If true, the Super modifier will display the icon from super-icon-path instead of the text symbol.</description>
+</key>
+<key name="altgr-use-icon" type="b">
+	<default>false</default>
+	<summary>AltGr: use icon</summary>
+	<description>If true, the AltGr modifier will display the icon from altgr-icon-path instead of the text symbol.</description>
+</key>
+<key name="saved-symbols" type="a{ss}">
+<default>{}</default>
+<summary>Saved symbols</summary>
+<description>User-saved symbols preset.</description>
+</key>
+</schema>
+</schemalist>
